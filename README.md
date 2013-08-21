@@ -60,6 +60,23 @@ If the scripts are being printed into the page, the plugin is functioning correc
 
 The author is ready and willing to help users and fix problems with this plugin, but ***because this is a free plugin, the author is unable give his time to help debug JavaScript errors.***  You may need to seek help with the scripts in places like [Stack Overflow](http://stackoverflow.com, "Stack Overflow").
 
+####I'm having problems with JQuery.  What's going on?
+
+To prevent compatibility problems, WordPress natively sets jQuery to noConflict() mode.  This means that the '$' doesn't work, unless you specifically enable it.  Here, you have two options:
+
+Simply use 'jQuery()' where you would use '$()'.
+
+Or, wrap your jQuery like so:
+
+    (function($) {
+    // Inside of this function, $() will work as an alias for jQuery()
+    // and other libraries also using $ will not be accessible under this shortcut
+    })(jQuery);
+
+[More Information from the WordPress Codex](http://codex.wordpress.org/Function_Reference/wp_enqueue_script#jQuery_noConflict_Wrappers)
+
+Also, if your script isn't running, you may need to wrap your jQuery in a jQuery(document).ready function.
+
 ### Help
 
 [Simple Scripts Wiki](https://github.com/johnregan3/simple-scripts/wiki "Simple Scripts Wiki")

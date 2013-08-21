@@ -83,10 +83,9 @@ function ssjr3_header_scripts() {
 		$sfhs_header = isset( $options['header_scripts_input'] ) ? $options['header_scripts_input'] : '';
 		echo "<script type=text/javascript>";
 		if ( isset( $options['ssjr3_credit'] ) ) {
-			echo "/*
- * Rendered by the Simple Scripts Plugin
- * http://wordpress.org/plugins/simple-scripts/
- */\n";
+			echo "// Rendered by the Simple Scripts Plugin
+// http://wordpress.org/plugins/simple-scripts/
+ \n";
 		}
 		echo $sfhs_header;
 		echo "</script>";
@@ -104,10 +103,9 @@ function ssjr3_footer_scripts() {
 		$sfhs_footer = isset( $options['footer_scripts_input'] ) ? $options['footer_scripts_input'] : '';
 		echo "<script type=text/javascript>";
 		if ( isset( $options['ssjr3_credit'] ) ) {
-			echo "/*
- * Rendered by the Simple Scripts Plugin
- * http://wordpress.org/plugins/simple-scripts/
- */\n";
+			echo "// Rendered by the Simple Scripts Plugin
+// http://wordpress.org/plugins/simple-scripts/
+\n";
 		}
 		echo $sfhs_footer;
 		echo "</script>";

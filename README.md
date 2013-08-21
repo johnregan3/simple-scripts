@@ -40,6 +40,22 @@ Install Simple Header & Footer Scripts just as you would any other WP Plugin:
 
 4.  View your changes in the Front End of your website
 
+### requently Asked Questions
+
+Find more help at the [Simple Custom CSS Wiki](https://github.com/johnregan3/simple-custom-css/wiki "Simple Custom CSS Wiki")
+
+#### Will this Plugin work on my WordPress.com website?
+
+Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
+
+####Why aren't my scripts working?
+
+It's important to note that this plugin simply prints your scripts into your posts/pages; it does nothing to modify or execute the scripts.
+
+If you're having problems, first check the source of your page in the browser.  Ensure that the scripts are printing into the header/footer as you have entered them.  ***If the scripts are being printed into the page, the plugin is functioning correctly.***
+
+Unfortunately, if they are being printed but still not working, there is an error with your script, or perhaps in the order in which they are being loaded into the page.  ***The author is ready and willing to help users and fix problems with this plugin, but because this is a free plugin, the author is unable devote the time to help debugging JavaScript errors.***  You may need to seek help with the scripts in places like [Stack Overflow](http://stackoverflow.com, "Stack Overflow")
+
 ### Help
 
 [Simple Header & Footer Scripts Wiki](https://github.com/johnregan3/simple-header-footer-scripts/wiki "Simple Header & Footer Scripts Wiki")

@@ -48,13 +48,17 @@ Find more help at the [Simple Scripts Wiki](https://github.com/johnregan3/simple
 
 Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
+#### Can I use this to print CSS into my header?
+
+Unfortunatley, because it prints your scripts between &lt;script&gt;&lt;/script&gt; tags, your CSS will not display corretly.  However, it is recommended that you use the [Simple Custom CSS Plugin](http://wordpress.org/plugins/simple-custom-css "Simple Custom CSS Plugin") for adding CSS to your website.
+
 ####Why aren't my scripts working?
 
 It's important to note that this plugin simply prints your scripts into your posts/pages; it does nothing to modify or execute the scripts.
 
-If you're having problems, first check the source of your page in the browser.  Ensure that the scripts are printing into the header/footer as you have entered them.  ***If the scripts are being printed into the page, the plugin is functioning correctly.***
+If the scripts are being printed into the page, the plugin is functioning correctly.  If you're having problems, first check the source of your page in the browser.  Ensure that the scripts are printing into the header/footer as you have entered them.  Unfortunately, if they are being printed but still not working, there is an error within the script, or perhaps in the order in which they are being loaded into the page.
 
-Unfortunately, if they are being printed but still not working, there is an error within the script, or perhaps in the order in which they are being loaded into the page.  ***The author is ready and willing to help users and fix problems with this plugin, but because this is a free plugin, the author is unable devote the time to help debugging JavaScript errors.***  You may need to seek help with the scripts in places like [Stack Overflow](http://stackoverflow.com, "Stack Overflow")
+The author is ready and willing to help users and fix problems with this plugin, but ***because this is a free plugin, the author is unable give his time to help debug JavaScript errors.***  You may need to seek help with the scripts in places like [Stack Overflow](http://stackoverflow.com, "Stack Overflow").
 
 ### Help
 

@@ -199,7 +199,7 @@ function ssjr3_footer_scripts_input() {
  */
 function ssjr3_credit() {
 	$options = get_option('ssjr3_settings');
-	$field_value = isset( $options['ssjr3_credit'] ) ? $options['ssjr3_credit'] : 0;
+	$field_value = isset( $options['ssjr3_credit'] ) ? $options['ssjr3_credit'] : 1;
 	?>
 		<input type="checkbox" name="ssjr3_settings[ssjr3_credit]" value="1" <?php checked( 1, $field_value ) ?> />
 		<p style="width: 300px;" class="description">
@@ -214,16 +214,14 @@ function ssjr3_credit() {
  * @since 1.0
  */
 function ssjr3_render_submenu_page() {
-
 	if ( isset( $_GET['settings-updated'] ) ) : ?>
 		<div id="message" class="updated"><p><?php _e( 'Scripts updated successfully.' ); ?></p></div>
 	<?php endif; ?>
- 
 	<div class="wrap">
 		<?php screen_icon(); ?>
 		<h2><?php _e( 'Simple Scripts Plugin', 'ssjr3' ); ?></h2>
 		<p><?php _e('Add your own scripts (including Google Analytics) to your header or footer regardless of what theme you are using.', 'ssjr3') ?></p>
-		<p><a href="https://github.com/johnregan3/simple-scripts/wiki">Get Help at the Wiki</p>
+		<p><a href="https://github.com/johnregan3/simple-scripts/wiki">Get Help at the Simple Scripts Plugin Wiki</a></p>
 		<form name="ssjr3-form" action="options.php" method="post" enctype="multipart/form-data">
 			<?php settings_fields('ssjr3_settings_group'); ?>
 			<?php do_settings_sections( __FILE__ ); ?>

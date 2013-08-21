@@ -29,7 +29,7 @@ An easy-to-use WordPress Plugin to add custom scripts (like Google Analytics) to
 
 Install Simple Scripts just as you would any other WP Plugin:
 
-1.  [Download Simple Scripts](http://wordpress.org/plugins/simple-custom-css/ "Download Simple Scripts") from WordPress.org.
+1.  [Download Simple Scripts](http://wordpress.org/plugins/simple-scripts/ "Download Simple Scripts") from WordPress.org.
 
 2.  Unzip the .zip file.
 

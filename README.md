@@ -24,7 +24,7 @@ Install Simple Scripts just as you would any other WP Plugin:
 
 3.  Upload the Plugin folder (simple-scripts/) to the wp-content/plugins folder.
 
-4. Go to [Plugins Admin Panel](http://codex.wordpress.org/Administration_Panels#Plugins "Plugins Admin Panel") and find the newly uploaded Plugin, "Simple Custom CSS" in the list.
+4. Go to [Plugins Admin Panel](http://codex.wordpress.org/Administration_Panels#Plugins "Plugins Admin Panel") and find the newly uploaded Plugin, "Simple Scripts" in the list.
 
 5. Click "Activate Plugin."
 

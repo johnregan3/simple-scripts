@@ -1,4 +1,4 @@
-Simple Custom CSS Plugin
+Simple Header & Footer Scripts
 =================
 
 An easy-to-use WordPress Plugin to add custom scripts (like Google Analytics) to your website's Header and/or Footer.  Great for Administrators who don't want to store their custom scripts in a theme's options.  These fields will remain even if the theme is changed.

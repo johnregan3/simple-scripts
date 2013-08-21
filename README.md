@@ -1,27 +1,28 @@
 Simple Custom CSS Plugin
 =================
 
-An easy-to-use WordPress Plugin to add custom CSS styles that override Plugin and Theme default styles.  This plugin is designed to meet the needs of administrators who would like to add custom CSS to their WordPress website.
+An easy-to-use WordPress Plugin to add custom scripts (like Google Analytics) to your website's Header and/or Footer.  Great for Administrators who don't want to store their custom scripts in a theme's options.  These fields will remain even if the theme is changed.
 
 **Features**
 
-- No configuration needed
+- No configuration needed, just enter your JavaScript(s).
+- Scripts print after enqueued scripts (like jQuery) are rendered
 - Simple interface built on WordPress UI
 - Virtually no impact on site performance
-- No JavaScript files or complicated database queries
-- Generates no CSS files
-- Extremely lightweight (~7KB)
+- Uses no JavaScript files or complicated database queries
+- Generates no files
+- Extremely lightweight (~8KB)
 - Thorough Documentation
 
 ### Installation
 
-Install Simple Custom CSS just as you would any other WP Plugin:
+Install Simple Header & Footer Scripts just as you would any other WP Plugin:
 
-1.  [Download Simple Custom CSS](http://wordpress.org/plugins/simple-custom-css/ "Download Simple Custom CSS") from WordPress.org.
+1.  [Download Simple Header & Footer Scripts](http://wordpress.org/plugins/simple-custom-css/ "Download Simple Header & Footer Scripts") from WordPress.org.
 
 2.  Unzip the .zip file.
 
-3.  Upload the Plugin folder (simple-custom-css/) to the wp-content/plugins folder.
+3.  Upload the Plugin folder (simple-header-footer-scripts/) to the wp-content/plugins folder.
 
 4. Go to [Plugins Admin Panel](http://codex.wordpress.org/Administration_Panels#Plugins "Plugins Admin Panel") and find the newly uploaded Plugin, "Simple Custom CSS" in the list.
 
@@ -31,37 +32,21 @@ Install Simple Custom CSS just as you would any other WP Plugin:
 
 ### Use
 
-1.  Navigate to Appearance > Custom CSS
+1.  Navigate to Tools > Header/Footer Scripts
 
-2.  Enter in valid CSS styles
+2.  Enter in valid JavaScript/jQuery
 
-3.  Click "Update Custom CSS"
+3.  Click "Update Scripts"
 
 4.  View your changes in the Front End of your website
 
 ### Help
 
-[Simple Custom CSS Wiki](https://github.com/johnregan3/simple-custom-css/wiki "Simple Custom CSS Wiki")
+[Simple Header & Footer Scripts Wiki](https://github.com/johnregan3/simple-header-footer-scripts/wiki "Simple Header & Footer Scripts Wiki")
 
-[Support Forum](http://wordpress.org/support/plugin/simple-custom-css "Support Forum")
+[Support Forum](http://wordpress.org/support/plugin/simple-header-footer-scripts "Support Forum")
 
 ###Changelog
-
-*** 1.1.1 ***
-* Allowing the ">" direct child selector.
-
-***1.1***
-* Removed unneeded hidden input
-* Added Action Hooks
-* Added cleanup on deletion
-* Added author attribution option
-* Added a more elegant method for adding CSS to the page:
-
-Instead of using print_scripts to insert the CSS directly into the HEAD, CSS styles are generated within simple-custom-css.php (the sole file for this plugin), then added via wp_enqueue_scripts, so now it will appear in the HEAD as:
-
-		<link rel="stylesheet" href="http://yoursite.com/?sccss=1" />
-
-...even though no css file is actually generated.
 
 ***1.0***
 * Inital Release

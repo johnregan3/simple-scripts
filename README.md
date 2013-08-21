@@ -1,7 +1,7 @@
 Simple Header & Footer Scripts
 =================
 
-An easy-to-use WordPress Plugin to add custom scripts (like Google Analytics) to your website's Header and/or Footer.  Great for Administrators who don't want to store their custom scripts in a theme's options.  These fields will remain even if the theme is changed.
+An easy-to-use WordPress Plugin to add custom scripts (like Google Analytics) to your website without any hassles.  Great for Administrators who don't want to store their custom scripts in a theme's settings.  The scripts entered into this plugin will remain even if the theme is changed.
 
 **Features**
 
@@ -38,11 +38,11 @@ Install Simple Header & Footer Scripts just as you would any other WP Plugin:
 
 3.  Click "Update Scripts"
 
-4.  View your changes in the Front End of your website
+4.  View the changes in the Front End of your website
 
-### requently Asked Questions
+###Frequently Asked Questions
 
-Find more help at the [Simple Custom CSS Wiki](https://github.com/johnregan3/simple-custom-css/wiki "Simple Custom CSS Wiki")
+Find more help at the [Simple Header & Footer Scripts Wiki](https://github.com/johnregan3/simple-header-footer-scripts/wiki "Simple Header & Footer Scripts Wiki")
 
 #### Will this Plugin work on my WordPress.com website?
 
@@ -54,7 +54,7 @@ It's important to note that this plugin simply prints your scripts into your pos
 
 If you're having problems, first check the source of your page in the browser.  Ensure that the scripts are printing into the header/footer as you have entered them.  ***If the scripts are being printed into the page, the plugin is functioning correctly.***
 
-Unfortunately, if they are being printed but still not working, there is an error with your script, or perhaps in the order in which they are being loaded into the page.  ***The author is ready and willing to help users and fix problems with this plugin, but because this is a free plugin, the author is unable devote the time to help debugging JavaScript errors.***  You may need to seek help with the scripts in places like [Stack Overflow](http://stackoverflow.com, "Stack Overflow")
+Unfortunately, if they are being printed but still not working, there is an error within the script, or perhaps in the order in which they are being loaded into the page.  ***The author is ready and willing to help users and fix problems with this plugin, but because this is a free plugin, the author is unable devote the time to help debugging JavaScript errors.***  You may need to seek help with the scripts in places like [Stack Overflow](http://stackoverflow.com, "Stack Overflow")
 
 ### Help
 

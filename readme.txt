@@ -1,4 +1,4 @@
-=== Simple Custom CSS ===
+=== Simple Header & Footer Scripts ===
 Contributors: johnregan3
 Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BAG2XC69ZYADQ
 Tags: custom scripts, custom, scripts, javascript, google, analytics, google analytics
@@ -55,7 +55,7 @@ It's important to note that this plugin simply prints your scripts into your pos
 
 If you're having problems, first check the source of your page in the browser.  Ensure that the scripts are printing into the header/footer as you have entered them.  ***If the scripts are being printed into the page, the plugin is functioning correctly.***
 
-Unfortunately, if they are being printed but still not working, there is an error with your script, or perhaps in the order in which they are being loaded into the page.  ***The author is ready and willing to help users and fix problems with this plugin, but because this is a free plugin, the author is unable devote the time to help debugging JavaScript errors.***  You may need to seek help with the scripts in places like [Stack Overflow](http://stackoverflow.com, "Stack Overflow")
+Unfortunately, if they are being printed but still not working, there is an error within the script, or perhaps in the order in which they are being loaded into the page.  ***The author is ready and willing to help users and fix problems with this plugin, but because this is a free plugin, the author is unable devote the time to help debugging JavaScript errors.***  You may need to seek help with the scripts in places like [Stack Overflow](http://stackoverflow.com, "Stack Overflow")
 
 == Screenshots ==
 

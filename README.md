@@ -1,4 +1,4 @@
-Simple Header & Footer Scripts
+Simple Scripts WordPress Plugin
 =================
 
 An easy-to-use WordPress Plugin to add custom scripts (like Google Analytics) to your website without any hassles.  Great for Administrators who don't want to store their custom scripts in a theme's settings.  The scripts entered into this plugin will remain even if the theme is changed.
@@ -16,13 +16,13 @@ An easy-to-use WordPress Plugin to add custom scripts (like Google Analytics) to
 
 ### Installation
 
-Install Simple Header & Footer Scripts just as you would any other WP Plugin:
+Install Simple Scripts just as you would any other WP Plugin:
 
-1.  [Download Simple Header & Footer Scripts](http://wordpress.org/plugins/simple-custom-css/ "Download Simple Header & Footer Scripts") from WordPress.org.
+1.  [Download Simple Scripts](http://wordpress.org/plugins/simple-scripts/ "Download Simple Scripts") from WordPress.org.
 
 2.  Unzip the .zip file.
 
-3.  Upload the Plugin folder (simple-header-footer-scripts/) to the wp-content/plugins folder.
+3.  Upload the Plugin folder (simple-scripts/) to the wp-content/plugins folder.
 
 4. Go to [Plugins Admin Panel](http://codex.wordpress.org/Administration_Panels#Plugins "Plugins Admin Panel") and find the newly uploaded Plugin, "Simple Custom CSS" in the list.
 
@@ -42,7 +42,7 @@ Install Simple Header & Footer Scripts just as you would any other WP Plugin:
 
 ###Frequently Asked Questions
 
-Find more help at the [Simple Header & Footer Scripts Wiki](https://github.com/johnregan3/simple-header-footer-scripts/wiki "Simple Header & Footer Scripts Wiki")
+Find more help at the [Simple Scripts Wiki](https://github.com/johnregan3/simple-scripts/wiki "Simple Scripts Wiki")
 
 #### Will this Plugin work on my WordPress.com website?
 
@@ -58,9 +58,9 @@ Unfortunately, if they are being printed but still not working, there is an erro
 
 ### Help
 
-[Simple Header & Footer Scripts Wiki](https://github.com/johnregan3/simple-header-footer-scripts/wiki "Simple Header & Footer Scripts Wiki")
+[Simple Scripts Wiki](https://github.com/johnregan3/simple-scripts/wiki "Simple Scripts Wiki")
 
-[Support Forum](http://wordpress.org/support/plugin/simple-header-footer-scripts "Support Forum")
+[Support Forum](http://wordpress.org/support/plugin/simple-scripts "Support Forum")
 
 ###Changelog
 

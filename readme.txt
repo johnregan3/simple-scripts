@@ -1,7 +1,7 @@
-=== Simple Header & Footer Scripts ===
+=== Simple Scripts ===
 Contributors: johnregan3
 Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BAG2XC69ZYADQ
-Tags: custom scripts, custom, scripts, javascript, google, analytics, google analytics
+Tags: custom scripts, custom, scripts, javascript, google, analytics, google analytics, header, footer
 Requires at least: 3.0.1
 Tested up to: 3.6
 Stable tag: trunk
@@ -12,7 +12,7 @@ Add Custom Scripts (like Google Analytics) to your WordPress site without any ha
 
 == Description ==
 
-An easy-to-use WordPress Plugin to add custom scripts (like Google Analytics) to your website's Header and/or Footer.  Great for Administrators who don't want to store their custom scripts in a theme's options.  These fields will remain even if the theme is changed.
+An easy-to-use WordPress Plugin to add custom scripts (like Google Analytics) to your website's header and/or footer.  Great for Administrators who don't want to store their custom scripts in a theme's options.  These fields will remain even if the theme is changed.
 
 **Features**
 
@@ -27,15 +27,15 @@ An easy-to-use WordPress Plugin to add custom scripts (like Google Analytics) to
 
 == Installation ==
 
-Install Simple Header & Footer Scripts just as you would any other WP Plugin:
+Install Simple Scripts just as you would any other WP Plugin:
 
-1.  [Download Simple Header & Footer Scripts](http://wordpress.org/plugins/simple-custom-css/ "Download Simple Header & Footer Scripts") from WordPress.org.
+1.  [Download Simple Scripts](http://wordpress.org/plugins/simple-custom-css/ "Download Simple Scripts") from WordPress.org.
 
 2.  Unzip the .zip file.
 
-3.  Upload the Plugin folder (simple-header-footer-scripts/) to the wp-content/plugins folder.
+3.  Upload the Plugin folder (simple-scripts/) to the wp-content/plugins folder.
 
-4. Go to [Plugins Admin Panel](http://codex.wordpress.org/Administration_Panels#Plugins "Plugins Admin Panel") and find the newly uploaded Plugin, "Simple Custom CSS" in the list.
+4. Go to [Plugins Admin Panel](http://codex.wordpress.org/Administration_Panels#Plugins "Plugins Admin Panel") and find the newly uploaded Plugin, "Simple Scripts" in the list.
 
 5. Click "Activate Plugin."
 
@@ -43,7 +43,7 @@ Install Simple Header & Footer Scripts just as you would any other WP Plugin:
 
 == Frequently Asked Questions ==
 
-Find more help at the [Simple Custom CSS Wiki](https://github.com/johnregan3/simple-custom-css/wiki "Simple Custom CSS Wiki")
+Find more help at the [Simple Scripts Wiki](https://github.com/johnregan3/simple-scripts/wiki "Simple Scripts Wiki")
 
 = Will this Plugin work on my WordPress.com website? =
 
@@ -59,7 +59,7 @@ Unfortunately, if they are being printed but still not working, there is an erro
 
 == Screenshots ==
 
-1. The Simple Header & Footer Scripts Administration Screen
+1. The Simple Scripts Administration Screen
 
 == Changelog ==
 
